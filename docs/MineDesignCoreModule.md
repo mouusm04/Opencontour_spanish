@@ -1,23 +1,6 @@
 
 # Capítulo 4 Módulo central de diseño de minas
 
-What you will learn:
-
-- [Descripción general](#41-descripción-general)
-- [Menu Despegable](#42-menu-despegable)
-- [Menú principal](#43-menú-principal)
-- [Menú de herramientas](#44-menú-de-herramientas)
-- [Menú de capas ](#45-menú-de-capas)
-- [Barra de mensajes](#47-barra-de-mensajes)
-
-
-
-
-
-<hr style="height:2px;border-width:0;color:gray;background-color:grey">
-
-
-
 ## 4.1 Descripción general
 
 
@@ -186,7 +169,6 @@ Para borrar  una capa activada,    seleccione  **Clear Layer** (Borrar capa)  en
 El grupo Guardar  mostrará    las  opciones  disponibles:
 
 - Todo (Modelo):   guarda todas las capas, incluida la Capa Modelo.     
-- All - saves all layers, excluding the Model layer.  
 - Contour Group: guarda todas las capas Cutter y Filler, Base, Geotech, BaseResult, CutterResult e Import.
 - Grupo Mineplan
 - MP/CR:   guarda  las  capas  Base,  BaseResult  y  CutterResult
@@ -651,14 +633,12 @@ Vuelva a hacer clic en el botón **Add Haul/Load Features** (Agregar caracterís
     Re-click **Add Stockpile Features** cuando  se completa la adición de  funciones.  
 <hr>
 
-- **Add Leach Crush Features (Añadir características de trituración/lixiviación)** ![Image](/image/Add Leach Crush Features.jpg): Este botón se encuentra debajo del agrupado **Add Schedule Feature** function  (Añadir características de trituración/lixiviación). Haga clic en este botón y especifique la ubicación haciendo  
-
-    clic izquierdo para insertar una característica que contenga los siguientes datos: elevación, tipo, nombre, una orden de procesamiento y un “owmin” y “owmax” para determinar los valores de los bloques de la variable Routing (Ruta) (data.ow) aceptados. El nombre debe coincidir con el Nombre de Fase (pn) de relleno de cada celda de lixiviación (Filler) creada. Disponible cuando la capa Schedule está activa. El material minado se informa aquí tras el apilamiento.
+- **Add Leach Crush Features (Añadir características de trituración/lixiviación)** ![Image](/image/Add Leach Crush Features.jpg): Este botón se encuentra debajo del agrupado **Add Schedule Feature** function  (Añadir características de trituración/lixiviación). Haga clic en este botón y especifique la ubicación haciendo clic izquierdo para insertar una característica que contenga los siguientes datos: elevación, tipo, nombre, una orden de procesamiento y un “owmin” y “owmax” para determinar los valores de los bloques de la variable Routing (Ruta) (data.ow) aceptados. El nombre debe coincidir con el Nombre de Fase (pn) de relleno de cada celda de lixiviación (Filler) creada. Disponible cuando la capa Schedule está activa. El material minado se informa aquí tras el apilamiento.
 
     Re-click **Add Leach Crush Features** cuando se completa la adición de características  .
 <hr>
 
-- **Add Leach ROM Features (Añadir características ROM de lixiviación)** ![Image](/image/Add Leach ROM Features.jpg): TSu botón se encuentra debajo del botón agrupado **Add Schedule Feature** function, (Añadir características ROM de lixiviación). Haga clic en este botón y especifique la ubicación haciendo clic izquierdo para insertar una característica que contenga los siguientes datos: elevación, tipo, nombre, una orden de procesamiento y un “owmin” y “owmax” para determinar los valores de los bloques de la variable Routing (Ruta) (data.ow) aceptados. El nombre debe coincidir con el Nombre de Fase (pn) de cada celda de lixiviación (Filler) creada. Disponible cuando la capa Schedule está activa. El material minado se informa directamente aquí y no a través de un apilamiento
+- **Add Leach ROM Features (Añadir características ROM de lixiviación)** ![Image](/image/Add Leach ROM Features.jpg): Este botón se encuentra debajo del botón agrupado **Add Schedule Feature** function, (Añadir características ROM de lixiviación). Haga clic en este botón y especifique la ubicación haciendo clic izquierdo para insertar una característica que contenga los siguientes datos: elevación, tipo, nombre, una orden de procesamiento y un “owmin” y “owmax” para determinar los valores de los bloques de la variable Routing (Ruta) (data.ow) aceptados. El nombre debe coincidir con el Nombre de Fase (pn) de cada celda de lixiviación (Filler) creada. Disponible cuando la capa Schedule está activa. El material minado se informa directamente aquí y no a través de un apilamiento
 
     Re-click **Add Leach ROM Features** cuando  se completa la adición de  funciones.  
 

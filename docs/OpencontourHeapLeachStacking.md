@@ -1,19 +1,9 @@
 
 # Chapter 5 Apilamiento de lixiviación en pilas de Opencontour 
 
-Lo que aprenderá:
-
-- Descripción general                                          
-- Menú Stacking (Menú Utility)                                                   
 
 
-
-<hr style="height:2px;border-width:0;color:gray;background-color:grey">
-
-
-
-
-## Menú Utility > Menú Stacking
+## 5.1 Menú Utility > Menú Stacking
 
 Al presionar el botón **Stacking** del menú Utility, se abrirá el módulo Leach Stacking. Este se usa para asignar propiedades de panel de lixiviación a las capas CutterResult, Model y Mineplan. Las canchas de lixiviación primero se diseñan como capas Filler. Estas pueden separarse en elevaciones verticales. La función **Cut Contour with Cutter/Filler** se ejecuta para apilar las figuras del material CutterResult.  
 
@@ -41,7 +31,7 @@ La ventana del módulo Leach Stacking incluye varias pestañas de configuración
 
 
 
-## Utility Menu
+## 5.2 Utility Menu
 
 ### Módulo Leach Stacking > Pestaña Home
 
