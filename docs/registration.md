@@ -1,58 +1,50 @@
-# Chapter 2 User Registration
+# Capítulo 2 Registro  de usuarios
 
-What you will learn:
+## Nuevo usuario
 
-- [New User Registration](#new-user).
-- [Existing User Login](#existing-user).
-- [Reset Password](#reset-password).
-
-____________________________________________________________________
-
-## New User
-
-For new user registration, follow the instructions below.
+Para el registro de nuevos  usuarios,    siga  las  instrucciones a continuación.
 
 
-1. In your browser, type in the following IP address: [http://portal.opencontour.com/login](http://portal.opencontour.com/login).
+1. En su navegador, escriba la siguiente dirección IP [http://portal.opencontour.com/login](http://portal.opencontour.com/login).
 
-    The Opencontour registration page appears.
+    Aparecerá la página de registro de Opencontour.
 
     ![Image](/image/Register.jpg)  
 &nbsp;
 
-2. Click **Sign-Up**. A new window will appear.
+2. Haga clic en el botón **Sign-Up**. Aparecerá una nueva ventana
 
-3. Provide appropriate details for new users in the following fields:  
+3.	Ingrese los detalles que se requieren para los nuevos usuarios:  
 
     | &nbsp;&nbsp;Field Name  &nbsp;&nbsp; &nbsp;   | Description |
     | ----------- | ----------- |
     | &nbsp;&nbsp;First Name | &nbsp;&nbsp;The user's first name.       |
-    | &nbsp;&nbsp;Last Name   | &nbsp;&nbsp;The user's last name.        |
-    | &nbsp;&nbsp;Phone   | &nbsp;&nbsp;The user's phone number.      |
-    | &nbsp;&nbsp;Email  | &nbsp;&nbsp;email address that will be used for communication.      |
-    | &nbsp;&nbsp;Password   | &nbsp;&nbsp;Enter a new password. It must be at least 8 digits long.|
+    | &nbsp;&nbsp;Last Name   | &nbsp;&nbsp;El apellido del usuario.        |
+    | &nbsp;&nbsp;Phone   | &nbsp;&nbsp;El numero de teléfono.      |
+    | &nbsp;&nbsp;Email  | &nbsp;&nbsp;Dirección de email      |
+    | &nbsp;&nbsp;Password   | &nbsp;&nbsp;Crear una contraseña. Debe tener al menos 8 digitos.|
     
 
-4. Click **Next**.
+4.	Presionar el botón **Next**.
 
-5. Read **Terms of use** and click **"terms of use"** checkbox to accept it.
+5.	Por favor leer Terms of use y hacer clic en la casilla "**"terms of use"** para aceptarlo.
 
-6. Click **Register Account**.
+6.	Clic **Register Account**.
 
-    The system will send an activation link to the registered email address.
-
-
-## Existing User
-
-Existing users who already have a User ID and Password can sign up by clicking the Sign-Up link on the Sign in page.
+    El sistema enviará un enlace de activación a la dirección de  correo electrónico  registrada
 
 
-## Reset Password
+## Usuario existente
 
-If you forget your password, you can request to reset your password.
+Los usuarios existentes que ya tienen un ID de usuario y una contraseña pueden registrarse haciendo clic en el vínculo Registrarse en    la página Iniciar sesión.  
 
-1.	Click **Forgot Password**
 
-2.	Enter your email, then click **Reset Password**
+## Restablecer contraseña
 
-    A verification email with a link to reset the password will be sent your registered email address.
+Si   olvida su contraseña,   puede  solicitar    restablecer  su  contraseña.
+
+1.	Clic **Forgot Password**.
+
+2.	Introduce tu correo electrónico y, a continuación, haz clic en **Reset Password**.
+
+    Se   enviará un correo electrónico de verificación  con  un  enlace  para  restablecer  la  contraseña  a  su dirección de correo electrónico  registrada.  
