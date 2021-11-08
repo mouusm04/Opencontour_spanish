@@ -280,7 +280,7 @@ Para comenzar a trazar en la capa Solution, primero es necesario agregar la capa
 
 1.	Haga clic en el menú Utility > Stacking. Aparecerá la ventana del módulo Leach Stacking con la pestaña Home abierta.
 
-2.	Seleccione la pestaña Solution y presione el botón Add Solution. Aparecerá la capa Solution en el Menú Layer y estará activa.
+2.	Seleccione la pestaña Solution y presione el botón Add Solution. Aparecerá la capa Solution en el Menú Layer y estará activa. Esta capa contiene entradas para rellenar las propiedades 'on', 'app_rate' y 'lt' en las capas CutterResult y Mineplan.
 
 
   ![Image](/image/Adding the Solution Layer.jpg)
@@ -311,8 +311,11 @@ Posteriormente, siga estos pasos:
 
 #### Actualizar propiedades de la capa Solution
 
+Mediante la visualización Propiedades,  las características individuales se pueden ver y actualizar.  Estos se enumeran en la tabla a continuación.
+
 Las características de la capa Solution que no tengan la tasa de aplicación de las propiedades (app_rate, gpm/ft2 o L/m2/hr) y el tiempo de lixiviación (lt, días) completados pueden añadirse a través de la función **Update Solution**. Es posible acceder a esta mediante el menú **Utility > Stacking > Solution**.  La función **Update Solution** usará la capa Solution para completar las propiedades “on” y “lt” de la capa CutterResult y Mineplan con un valor para el centroide de cada registro presente en el polígono de la capa Solution. La capa CutterResult tendrá la propiedad “app_rate” escrita en ella.
 
+Haga clic en Menú utilidad > Apilamiento. La  ventana del módulo Leach Stacking aparecerá con la pestaña Home  abierta. La pestaña Solución se muestra a continuación.
 
 **NOTA: El polígono debe trazarse por encima de la elevación CutterResult.**
 
@@ -324,7 +327,7 @@ Las características de la capa Solution que no tengan la tasa de aplicación de
 Al crear un proyecto de apilamiento, se deben seguir pasos específicos en Opencontour. A continuación se muestra una estructura de archivos sugerida.
 There are two categories of stacking:
 
-- **Historical Stacking** – incluye todo el material actualmente colocado en la cancha de lixiviación. El sitio tendrá archivos DXF  que destacarán las áreas de apilamiento.
+- **Historical Stacking** – incluye todo el material actualmente colocado en la cancha de lixiviación. El sitio tendrá archivos DXF que destacarán las áreas de apilamiento.
 
 - **Forecast Stacking** – material que se apilará en el futuro. Este se construirá sobre la superficie de Historical Stacking.  
 
@@ -353,7 +356,7 @@ Un buen lugar donde almacenar el archivo de la cuadrícula es debajo de la secci
 
 **Paso 4: Mineplan**
 
-Una vez que se ha construido el CSV, se importa a la capa Mineplan, donde podrá ejecutarse la función **Populate Mineplan** del Módulo Leach Stacking.
+Una vez que se ha construido el CSV, se importa a la capa Mineplan, donde podrá ejecutarse la función **Populate Mineplan** del Módulo Leach Stacking. Esta capa debe guardarse como un archivo JSON para su uso posterior y para guardar la re-importación.  
 
 Tras ejecutar la función **Populate Mineplan**, la capa CutterResult debe exportarse y se le debe asignar un nombre claro, por ejemplo, LP30_EOM_YearMonth_CR.json.  Guárdela en la carpeta “05_CutterResults”.
 
